@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-trainee-assignment"
+version = "0.1.0"
+description = ""
+authors = ["Dvaraz <dvaraz1988@gmail.com>"]
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+flake8 = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
